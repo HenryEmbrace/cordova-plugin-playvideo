@@ -7,10 +7,10 @@
 //
 
 #import "PlayVideo.h"
-
+#define HttpUrl @"http://boyueimages.shhwec.com/"
 @implementation PlayVideo
 - (void)playVideoMethod:(CDVInvokedUrlCommand *)command {
-    NSString *url = [command.arguments lastObject];
+     NSString *url = [NSString stringWithFormat:@"%@%@",HttpUrl,[command.arguments lastObject]];
     self.hasPendingOperation = YES;
     __weak PlayVideo* weakSelf = self;
     weakSelf.mediaVC = [[ShowVideoViewController alloc] init];

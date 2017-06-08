@@ -23,8 +23,8 @@
     <header-file src="src/ios/PlayVideo.h" />
     <source-file src="src/ios/PlayVideo.m" />
 
-    <header-file src="src/ios/RCMediaPreview.h" />
-    <source-file src="src/ios/RCMediaPreview.m" />
+    <header-file src="src/ios/VideoPreview.h" />
+    <source-file src="src/ios/VideoPreview.m" />
 
     <header-file src="src/ios/ShowVideoViewController.h" />
     <source-file src="src/ios/ShowVideoViewController.m" />
